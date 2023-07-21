@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text">
+        <form action="#" class="form">
+            <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                    خبر خود را بنویسید
+                </h2>
+            </div>
+            
+            <div class="form__group">
+                <input type="text" class="form__input" placeholder="عنوان خبر را وارد کنید" id="title" required>
+                <label for="title" class="form__label">تایتل</label>
+            </div>
+
+            <div class="form__group">
+                <textarea placeholder="متن خبر را اضافه کنید" name="" id="" cols="30" rows="10" class="form__input" id="text" required></textarea>
+                <label for="text" class="form__label">متن خبر</label>
+            </div>
+
+            <div class="form__group u-margin-bottom-medium ">
+                <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label for="small" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        کامنت فعال باشد
+                    </label>
+                </div>
+            
+                <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <label for="large" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        کامنت فعال نباشد
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__group">
+                <button class="btn btn--green">ثبت خبر &rarr;</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+$color-grey: #3b3b3b;
+$color-black: #111;
+$color-grey-dark-3: #333;
+$color-white: #fff;
+$color-white-1: #e8e8e8;
+$color-orange-dark: #ff7730;
+$color-tertiary-light: #2998ff;
+$color-pink: #eb2f64;
+$color-pink-light: #FF3366;
+$color-pink-dark: #BA265D;
+$color-green: #55c57a;
+$color-green-light: #7ed56f;
+$color-green-dark: #28b485;
+
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+
+*,
+*::before,
+*::after {
+    content: '';
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'IRANSans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-white-1;
+    margin: 0;
+    padding: 0;
+}
+
+p::selection {
+    background-color: $color-pink;
+    color: $color-black;
+}

@@ -1,0 +1,49 @@
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+$color-green: #55c57a;
+$color-green-light: #7ed56f;
+$color-green-dark: #28b485;
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+$color-white: #fff;
+$color-black: #000;
+$color-orange-light: #ffb900;
+$color-orange-dark: #ff7730;
+///BREAKPOINTS
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'IRANSans', sans-serif;
+    font-weight: 400;
+    background-color: $color-grey-dark-2;
+    font-size: 1rem;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        color: $color-orange-dark;
+        transform: translateX(-1rem);
+    }
+}

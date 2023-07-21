@@ -1,0 +1,75 @@
+$color-white: #fff;
+$color-white-1: #e8e8e8;
+$color-grey: #3b3b3b;
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: "IRANSans" , sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: $color-white;
+}
+
+.header {
+    position: relative;
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+}
+
+.error {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__pic {
+        height: 50rem;
+        width: 50rem;
+    }
+
+    &__text {
+        font-size: 2.2rem;
+        transform: skew(-15deg);
+    }
+
+.btn {
+    background-color: $color-white-1;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem rgba($color-grey, .5);
+    transition: all .3s;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &:focus {
+        transform: translateY(3px);
+    }
+
+    &__text {
+        font-family: 'IRANSans' , sans-serif;
+        font-size: 1.3rem;
+        color: $color-grey;
+        text-decoration: none;
+        transition: all .3s;
+
+    }
+}
+}

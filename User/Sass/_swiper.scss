@@ -1,0 +1,63 @@
+.swiper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    margin-top: 3rem;
+
+.swiper-wrapper {
+    
+
+.swiper-slide {
+    background-color: $color-white;
+
+.content {
+    display: flex;
+
+    @media only screen and (max-width:700px) {
+        flex-direction: column;
+    }
+
+.right-part {
+    flex: 0 0 70%;
+
+
+    &__pic {
+        height: 40rem;
+        width: 100%;
+        cursor: pointer;
+        filter: brightness(60%);
+        transition: all .3s;
+
+        &:hover {
+            filter: brightness(100%);
+        }
+
+        @media only screen and (max-width:700px) {
+            width: 100%;
+        }
+    }
+
+}
+
+.left-part {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    &__paragraph {
+        font-size: 1.4rem;
+        color: $color-grey;
+    }
+}
+
+}
+}
+}
+}
